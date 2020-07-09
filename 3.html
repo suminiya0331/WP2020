@@ -4,6 +4,173 @@
  <meta charset="utf-8"></meta>
  <title>Sumin's Portfolio Library</title>
  <style>
+ .navbar0 {
+   background-color: white;
+   margin: 0;
+   padding: 1rem;
+   list-style: none;
+   top: 0;
+   position: fixed;
+   width: 100%;
+   height:50px;
+   text-align: left;
+   color: 707070;
+   z-index: 1;
+   display: flex;
+   overflow: hidden;
+ }
+
+ .navbar0 li {
+   margin-left: 5px;
+   margin-right: 10px;
+   margin-bottom: 20px;
+ }
+
+ .navbar0>li>a {
+   display: block;
+   text-decoration: none;
+   color: #707070;
+   padding: 0;
+ }
+
+ .navbar0>li>a:hover {
+   font-weight: bold;
+ }
+
+ .navbar0>li>a:visited {
+   text-decoration: none;
+ }
+
+ .navbar0 .mainli {
+   margin-left: 385px;
+ }
+ .circle0 {
+   background-color: black;
+   width: 20px;
+   height: 20px;
+   border-radius: 20px;
+   text-align: center;
+   margin: 0 auto;
+   vertical-align: middle;
+   line-height: 150px;
+ }
+ .circle1 {
+   background-color: red;
+   width: 20px;
+   height: 20px;
+   border-radius: 20px;
+   text-align: center;
+   margin: 0 auto;
+   vertical-align: middle;
+   line-height: 150px;
+ }
+
+ .circle2 {
+   background-color: #ff7044;
+   width: 20px;
+   height: 20px;
+   border-radius: 20px;
+   text-align: center;
+   margin: 0 auto;
+   vertical-align: middle;
+   line-height: 150px;
+ }
+
+ .circle3 {
+   background-color: yellow;
+   width: 20px;
+   height: 20px;
+   border-radius: 20px;
+   text-align: center;
+   margin: 0 auto;
+   vertical-align: middle;
+   line-height: 150px;
+ }
+
+ .circle4 {
+   background-color: #00ff00;
+   width: 20px;
+   height: 20px;
+   border-radius: 20px;
+   text-align: center;
+   margin: 0 auto;
+   vertical-align: middle;
+   line-height: 150px;
+ }
+
+ .circle5 {
+   background-color: blue;
+   width: 20px;
+   height: 20px;
+   border-radius: 20px;
+   text-align: center;
+   margin: 0 auto;
+   vertical-align: middle;
+   line-height: 150px;
+ }
+
+ .circle6 {
+   background-color: navy;
+   width: 20px;
+   height: 20px;
+   border-radius: 20px;
+   text-align: center;
+   margin: 0 auto;
+   vertical-align: middle;
+   line-height: 150px;
+ }
+
+ .circle7 {
+   background-color: #ce02ee;
+   width: 20px;
+   height: 20px;
+   border-radius: 20px;
+   text-align: center;
+   margin: 0 auto;
+   vertical-align: middle;
+   line-height: 150px;
+ }
+ .navbar {
+   margin-top: 80px;
+   background: white;
+   list-style: none;
+   position: fixed;
+   width: 100%;
+   letter-spacing: -0.7px;
+   text-align:right;
+   color: black;
+ }
+ .navbar>li {
+   display: inline-block;
+   margin-top:auto;
+   margin-bottom:auto;
+ }
+ .navbar>li>a {
+   display: block;
+   text-decoration: none;
+   padding: 10px 20px;
+   color: black;
+ }
+ .navbar>li>a:hover {
+   font-weight:bold;
+ }
+ .indexli{
+   font-weight:bold;
+ }
+ .introli{
+   font-weight:bold;
+ }
+ .last{
+   margin-right:50px;
+ }
+ audio{
+   width: 200px;
+   height: 15px;
+   margin-right:50px;
+ }
+ img:hover{
+   opacity:50%;
+ }
  body{
    text-align:center;
    font-family:"Noto Sans KR";
@@ -82,6 +249,34 @@
  </style>
  </head>
  <body>
+   <nav>
+     <ul class="navbar0">
+       <li><a class="mainli" href="http://suminiya0331.github.io/webfinal/web/index_21961005.html">
+           <div class="circle0"></div>
+         </a></li>
+       <li><a class="redli" href="http://suminiya0331.github.io/webfinal/web/red.html">
+           <div class="circle1"></div>
+         </a></li>
+       <li><a class="orangeli" href="http://suminiya0331.github.io/webfinal/web/orange.html">
+           <div class="circle2"></div>
+         </a></li>
+       <li><a class="yellowli" href="http://suminiya0331.github.io/webfinal/web/yellow.html">
+           <div class="circle3"></div>
+         </a></li>
+       <li><a class="greenli" href="http://suminiya0331.github.io/webfinal/web/green.html">
+           <div class="circle4"></div>
+         </a></li>
+       <li><a class="blueli" href="http://suminiya0331.github.io/webfinal/web/blue.html">
+           <div class="circle5"></div>
+         </a></li>
+       <li><a class="navyli" href="http://suminiya0331.github.io/webfinal/web/navy.html">
+           <div class="circle6"></div>
+         </a></li>
+       <li><a class="purpleli" href="https://suminiya0331.github.io/WP2020/index_21961005.html">
+           <div class="circle7"></div>
+         </a></li>
+     </ul>
+   </nav>
   <ul class="navbar">
     <li class="music">
       <audio src="bgm.mp3" controls  muted></audio>
